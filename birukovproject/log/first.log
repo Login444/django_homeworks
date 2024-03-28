@@ -1,0 +1,272 @@
+INFO 2024-03-26 16:36:41,406 autoreload 5680 10404 Watching for file changes with StatReloader
+INFO 2024-03-26 16:36:45,847 basehttp 5680 19972 "GET /second/random_num/ HTTP/1.1" 200 2
+INFO 2024-03-26 16:36:47,850 basehttp 5680 19972 "GET /second/random_num/ HTTP/1.1" 200 1
+INFO 2024-03-26 16:36:51,527 basehttp 5680 19972 "GET /second/random_num/ HTTP/1.1" 200 2
+INFO 2024-03-26 16:38:36,411 autoreload 5680 10404 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\birukovproject\settings.py changed, reloading.
+INFO 2024-03-26 16:38:40,905 basehttp 19140 23384 "GET /second/random_num/ HTTP/1.1" 200 2 <socket.socket fd=1180, family=2, type=1, proto=0, laddr=('127.0.0.1', 8080), raddr=('127.0.0.1', 62558)>
+INFO 2024-03-26 16:39:03,545 basehttp 19140 23384 "GET /second/random_num/ HTTP/1.1" 200 2 <socket.socket fd=1180, family=2, type=1, proto=0, laddr=('127.0.0.1', 8080), raddr=('127.0.0.1', 62558)>
+INFO 2024-03-26 16:39:55,121 autoreload 10640 10860 Watching for file changes with StatReloader
+INFO 2024-03-26 16:39:58,407 basehttp 10640 23116 "GET /second/random_num/ HTTP/1.1" 200 2
+WARNING 2024-03-26 16:40:56,309 log 10640 3520 Not Found: /favicon.ico
+WARNING 2024-03-26 16:40:56,309 basehttp 10640 3520 "GET /favicon.ico HTTP/1.1" 404 2553
+INFO 2024-03-26 16:48:57,600 autoreload 10640 10860 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:48:57,911 autoreload 19316 11988 Watching for file changes with StatReloader
+INFO 2024-03-26 16:49:15,363 autoreload 19316 11988 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:49:15,661 autoreload 1360 13624 Watching for file changes with StatReloader
+INFO 2024-03-26 16:49:44,289 autoreload 1360 13624 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:49:44,589 autoreload 12824 2716 Watching for file changes with StatReloader
+INFO 2024-03-26 16:50:11,151 autoreload 12824 2716 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:50:11,452 autoreload 11304 1544 Watching for file changes with StatReloader
+INFO 2024-03-26 16:50:22,355 views 11304 20988 Орёл
+INFO 2024-03-26 16:50:22,356 basehttp 11304 20988 "GET /second/coin/ HTTP/1.1" 200 8
+INFO 2024-03-26 16:50:59,455 autoreload 11304 1544 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:50:59,760 autoreload 20444 22984 Watching for file changes with StatReloader
+INFO 2024-03-26 16:51:42,598 autoreload 20444 22984 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:51:42,896 autoreload 15880 20112 Watching for file changes with StatReloader
+INFO 2024-03-26 16:52:23,720 autoreload 15880 20112 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:52:24,030 autoreload 2016 884 Watching for file changes with StatReloader
+INFO 2024-03-26 16:52:25,542 views 2016 10740 Выпало: Решка
+INFO 2024-03-26 16:52:25,542 basehttp 2016 10740 "GET /second/coin/ HTTP/1.1" 200 24
+INFO 2024-03-26 16:54:27,175 autoreload 2016 884 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:54:27,476 autoreload 11356 8184 Watching for file changes with StatReloader
+INFO 2024-03-26 16:54:29,480 views 11356 992 После броска моентки выпало: Решка
+INFO 2024-03-26 16:54:29,480 basehttp 11356 992 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 16:54:36,087 views 11356 992 После броска кубика выпало: 5
+INFO 2024-03-26 16:54:36,088 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:38,544 views 11356 992 После броска кубика выпало: 4
+INFO 2024-03-26 16:54:38,545 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:39,316 views 11356 992 После броска кубика выпало: 4
+INFO 2024-03-26 16:54:39,317 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:40,591 views 11356 992 После броска кубика выпало: 5
+INFO 2024-03-26 16:54:40,592 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:41,185 views 11356 992 После броска кубика выпало: 1
+INFO 2024-03-26 16:54:41,185 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:41,757 views 11356 992 После броска кубика выпало: 7
+INFO 2024-03-26 16:54:41,757 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:42,289 views 11356 992 После броска кубика выпало: 7
+INFO 2024-03-26 16:54:42,289 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:51,477 views 11356 992 После броска кубика выпало: 7
+INFO 2024-03-26 16:54:51,478 basehttp 11356 992 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:52,141 autoreload 11356 8184 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-26 16:54:52,453 autoreload 13784 10344 Watching for file changes with StatReloader
+INFO 2024-03-26 16:54:53,390 views 13784 4568 После броска кубика выпало: 3
+INFO 2024-03-26 16:54:53,391 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:54:55,562 views 13784 4568 После броска кубика выпало: 1
+INFO 2024-03-26 16:54:55,562 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:55:11,601 views 13784 4568 Случайное число: 14
+INFO 2024-03-26 16:55:11,601 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:55:13,472 views 13784 4568 Случайное число: 10
+INFO 2024-03-26 16:55:13,472 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:55:14,703 views 13784 4568 Случайное число: 79
+INFO 2024-03-26 16:55:14,703 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:55:15,285 views 13784 4568 Случайное число: 23
+INFO 2024-03-26 16:55:15,286 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:55:15,712 views 13784 4568 Случайное число: 11
+INFO 2024-03-26 16:55:15,713 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:05,066 views 13784 4568 Случайное число: 37
+INFO 2024-03-26 16:56:05,066 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:06,061 views 13784 4568 Случайное число: 84
+INFO 2024-03-26 16:56:06,061 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:06,709 views 13784 4568 Случайное число: 98
+INFO 2024-03-26 16:56:06,709 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:07,162 views 13784 4568 Случайное число: 47
+INFO 2024-03-26 16:56:07,163 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:07,478 views 13784 4568 Случайное число: 1
+INFO 2024-03-26 16:56:07,478 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 16:56:07,923 views 13784 4568 Случайное число: 83
+INFO 2024-03-26 16:56:07,923 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:08,790 views 13784 4568 Случайное число: 63
+INFO 2024-03-26 16:56:08,791 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:09,243 views 13784 4568 Случайное число: 81
+INFO 2024-03-26 16:56:09,244 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:09,472 views 13784 4568 Случайное число: 99
+INFO 2024-03-26 16:56:09,473 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:09,687 views 13784 4568 Случайное число: 45
+INFO 2024-03-26 16:56:09,687 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:09,865 views 13784 4568 Случайное число: 89
+INFO 2024-03-26 16:56:09,866 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:10,071 views 13784 4568 Случайное число: 4
+INFO 2024-03-26 16:56:10,071 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 16:56:10,279 views 13784 4568 Случайное число: 76
+INFO 2024-03-26 16:56:10,279 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:10,788 views 13784 4568 Случайное число: 83
+INFO 2024-03-26 16:56:10,788 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:10,986 views 13784 4568 Случайное число: 4
+INFO 2024-03-26 16:56:10,986 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 16:56:11,172 views 13784 4568 Случайное число: 89
+INFO 2024-03-26 16:56:11,172 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:11,349 views 13784 4568 Случайное число: 71
+INFO 2024-03-26 16:56:11,349 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:11,665 views 13784 4568 Случайное число: 5
+INFO 2024-03-26 16:56:11,666 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 16:56:11,854 views 13784 4568 Случайное число: 17
+INFO 2024-03-26 16:56:11,854 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:56:12,040 views 13784 4568 Случайное число: 63
+INFO 2024-03-26 16:56:12,041 basehttp 13784 4568 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 16:58:31,514 basehttp 13784 4568 "GET / HTTP/1.1" 200 27
+INFO 2024-03-26 16:58:50,305 views 13784 4568 После броска моентки выпало: Решка
+INFO 2024-03-26 16:58:50,305 basehttp 13784 4568 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 16:58:53,943 views 13784 4568 После броска моентки выпало: Орёл
+INFO 2024-03-26 16:58:53,943 basehttp 13784 4568 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 16:58:55,663 views 13784 4568 После броска моентки выпало: Орёл
+INFO 2024-03-26 16:58:55,664 basehttp 13784 4568 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 16:58:57,591 views 13784 4568 После броска моентки выпало: Решка
+INFO 2024-03-26 16:58:57,591 basehttp 13784 4568 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 16:59:01,997 views 13784 4568 После броска моентки выпало: Решка
+INFO 2024-03-26 16:59:01,998 basehttp 13784 4568 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 16:59:11,297 views 13784 4568 После броска кубика выпало: 3
+INFO 2024-03-26 16:59:11,297 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:14,159 views 13784 4568 После броска кубика выпало: 5
+INFO 2024-03-26 16:59:14,159 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:14,838 views 13784 4568 После броска кубика выпало: 4
+INFO 2024-03-26 16:59:14,839 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:15,223 views 13784 4568 После броска кубика выпало: 5
+INFO 2024-03-26 16:59:15,223 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:15,447 views 13784 4568 После броска кубика выпало: 1
+INFO 2024-03-26 16:59:15,448 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:15,623 views 13784 4568 После броска кубика выпало: 2
+INFO 2024-03-26 16:59:15,624 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:15,799 views 13784 4568 После броска кубика выпало: 2
+INFO 2024-03-26 16:59:15,799 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 16:59:15,974 views 13784 4568 После броска кубика выпало: 2
+INFO 2024-03-26 16:59:15,975 basehttp 13784 4568 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:00:05,277 basehttp 13784 12284 "GET / HTTP/1.1" 200 27
+INFO 2024-03-26 17:00:21,903 basehttp 13784 12284 "GET /second/coin HTTP/1.1" 301 0
+INFO 2024-03-26 17:00:21,947 views 13784 2232 После броска моентки выпало: Орёл
+INFO 2024-03-26 17:00:21,948 basehttp 13784 2232 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 17:00:23,824 views 13784 2232 После броска моентки выпало: Решка
+INFO 2024-03-26 17:00:23,824 basehttp 13784 2232 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 17:00:46,653 basehttp 13784 2232 "GET /second/cube HTTP/1.1" 301 0
+INFO 2024-03-26 17:00:46,676 views 13784 820 После броска кубика выпало: 1
+INFO 2024-03-26 17:00:46,676 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:00:58,974 views 13784 820 После броска кубика выпало: 2
+INFO 2024-03-26 17:00:58,975 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:01:01,904 views 13784 820 После броска кубика выпало: 3
+INFO 2024-03-26 17:01:01,904 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:01:03,787 views 13784 820 После броска кубика выпало: 4
+INFO 2024-03-26 17:01:03,787 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:01:06,162 views 13784 820 После броска кубика выпало: 2
+INFO 2024-03-26 17:01:06,163 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:01:08,114 views 13784 820 После броска кубика выпало: 4
+INFO 2024-03-26 17:01:08,115 basehttp 13784 820 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 17:01:23,981 basehttp 13784 820 "GET /second/random_num HTTP/1.1" 301 0
+INFO 2024-03-26 17:01:24,007 views 13784 17468 Случайное число: 80
+INFO 2024-03-26 17:01:24,008 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:26,048 views 13784 17468 Случайное число: 37
+INFO 2024-03-26 17:01:26,048 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:27,232 views 13784 17468 Случайное число: 15
+INFO 2024-03-26 17:01:27,232 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:28,446 views 13784 17468 Случайное число: 87
+INFO 2024-03-26 17:01:28,446 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:29,726 views 13784 17468 Случайное число: 14
+INFO 2024-03-26 17:01:29,726 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:30,924 views 13784 17468 Случайное число: 8
+INFO 2024-03-26 17:01:30,925 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 17:01:32,172 views 13784 17468 Случайное число: 78
+INFO 2024-03-26 17:01:32,172 basehttp 13784 17468 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 17:01:41,519 basehttp 13784 17468 - Broken pipe from ('192.168.1.15', 61962)
+INFO 2024-03-26 19:35:57,941 autoreload 22544 1776 Watching for file changes with StatReloader
+INFO 2024-03-26 19:40:44,992 autoreload 2832 12612 Watching for file changes with StatReloader
+INFO 2024-03-26 19:40:47,861 basehttp 2832 17608 "GET / HTTP/1.1" 200 27
+INFO 2024-03-26 19:41:15,382 basehttp 2832 17608 "GET /second/coin HTTP/1.1" 301 0
+INFO 2024-03-26 19:41:15,399 views 2832 2872 После броска моентки выпало: Орёл
+INFO 2024-03-26 19:41:15,400 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 19:41:19,021 views 2832 2872 После броска моентки выпало: Решка
+INFO 2024-03-26 19:41:19,022 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 19:41:21,054 views 2832 2872 После броска моентки выпало: Орёл
+INFO 2024-03-26 19:41:21,054 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 19:41:24,254 views 2832 2872 После броска моентки выпало: Решка
+INFO 2024-03-26 19:41:24,254 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 19:41:25,902 views 2832 2872 После броска моентки выпало: Решка
+INFO 2024-03-26 19:41:25,903 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 19:41:27,510 views 2832 2872 После броска моентки выпало: Решка
+INFO 2024-03-26 19:41:27,511 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 72
+INFO 2024-03-26 19:41:28,628 views 2832 2872 После броска моентки выпало: Орёл
+INFO 2024-03-26 19:41:28,629 basehttp 2832 2872 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 19:41:54,771 views 2832 2872 Случайное число: 91
+INFO 2024-03-26 19:41:54,771 basehttp 2832 2872 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:42:01,421 views 2832 2872 Случайное число: 77
+INFO 2024-03-26 19:42:01,421 basehttp 2832 2872 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:42:09,760 views 2832 2872 Случайное число: 17
+INFO 2024-03-26 19:42:09,761 basehttp 2832 2872 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:42:14,125 views 2832 2872 Случайное число: 99
+INFO 2024-03-26 19:42:14,126 basehttp 2832 2872 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:42:16,937 basehttp 2832 2872 - Broken pipe from ('192.168.1.8', 49326)
+INFO 2024-03-26 19:47:39,767 views 2832 7180 Случайное число: 63
+INFO 2024-03-26 19:47:39,768 basehttp 2832 7180 "GET /second/random_num/ HTTP/1.1" 200 42
+WARNING 2024-03-26 19:47:39,827 log 2832 7180 Not Found: /favicon.ico
+WARNING 2024-03-26 19:47:39,828 basehttp 2832 7180 "GET /favicon.ico HTTP/1.1" 404 2556
+INFO 2024-03-26 19:47:52,884 views 2832 7180 Случайное число: 92
+INFO 2024-03-26 19:47:52,884 basehttp 2832 7180 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:47:54,428 views 2832 7180 Случайное число: 54
+INFO 2024-03-26 19:47:54,429 basehttp 2832 7180 "GET /second/random_num/ HTTP/1.1" 200 42
+INFO 2024-03-26 19:47:55,676 views 2832 7180 Случайное число: 3
+INFO 2024-03-26 19:47:55,677 basehttp 2832 7180 "GET /second/random_num/ HTTP/1.1" 200 41
+INFO 2024-03-26 19:48:35,922 basehttp 2832 9880 "GET /second/coin HTTP/1.1" 301 0
+INFO 2024-03-26 19:48:35,946 views 2832 22188 После броска моентки выпало: Орёл
+INFO 2024-03-26 19:48:35,946 basehttp 2832 22188 "GET /second/coin/ HTTP/1.1" 200 70
+INFO 2024-03-26 19:48:55,624 basehttp 2832 22188 "GET /second/cube HTTP/1.1" 301 0
+INFO 2024-03-26 19:48:55,647 views 2832 18288 После броска кубика выпало: 1
+INFO 2024-03-26 19:48:55,648 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:08,566 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:08,566 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:21,434 views 2832 18288 После броска кубика выпало: 6
+INFO 2024-03-26 19:49:21,434 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:23,022 views 2832 18288 После броска кубика выпало: 6
+INFO 2024-03-26 19:49:23,022 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:24,137 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:24,137 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:25,401 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:25,402 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:27,114 views 2832 18288 После броска кубика выпало: 2
+INFO 2024-03-26 19:49:27,115 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:35,519 views 2832 18288 После броска кубика выпало: 1
+INFO 2024-03-26 19:49:35,520 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:40,894 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:40,894 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:44,606 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:44,606 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:46,556 views 2832 18288 После броска кубика выпало: 4
+INFO 2024-03-26 19:49:46,556 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:47,697 views 2832 18288 После броска кубика выпало: 3
+INFO 2024-03-26 19:49:47,698 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:48,446 views 2832 18288 После броска кубика выпало: 2
+INFO 2024-03-26 19:49:48,447 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:49,415 views 2832 18288 После броска кубика выпало: 2
+INFO 2024-03-26 19:49:49,416 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:50,445 views 2832 18288 После броска кубика выпало: 4
+INFO 2024-03-26 19:49:50,446 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:51,161 views 2832 18288 После броска кубика выпало: 4
+INFO 2024-03-26 19:49:51,161 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:52,393 views 2832 18288 После броска кубика выпало: 5
+INFO 2024-03-26 19:49:52,393 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:53,742 views 2832 18288 После броска кубика выпало: 3
+INFO 2024-03-26 19:49:53,742 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:49:54,703 views 2832 18288 После броска кубика выпало: 4
+INFO 2024-03-26 19:49:54,703 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:50:04,934 views 2832 18288 После броска кубика выпало: 6
+INFO 2024-03-26 19:50:04,935 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-26 19:50:17,311 views 2832 18288 После броска кубика выпало: 2
+INFO 2024-03-26 19:50:17,312 basehttp 2832 18288 "GET /second/cube/ HTTP/1.1" 200 61
+INFO 2024-03-28 15:16:16,281 autoreload 13972 9776 Watching for file changes with StatReloader
+INFO 2024-03-28 15:16:58,205 basehttp 13972 16768 "GET / HTTP/1.1" 200 1193
+WARNING 2024-03-28 15:16:58,364 log 13972 16768 Not Found: /favicon.ico
+WARNING 2024-03-28 15:16:58,365 basehttp 13972 16768 "GET /favicon.ico HTTP/1.1" 404 2451
+INFO 2024-03-28 15:17:10,101 basehttp 13972 16768 "GET /about_me HTTP/1.1" 301 0
+INFO 2024-03-28 15:17:10,115 basehttp 13972 15116 "GET /about_me/ HTTP/1.1" 200 4158
+INFO 2024-03-28 15:18:20,957 basehttp 13972 1644 "GET / HTTP/1.1" 200 1193
+INFO 2024-03-28 15:18:31,470 basehttp 13972 1644 "GET / HTTP/1.1" 200 1193
+INFO 2024-03-28 15:18:39,003 basehttp 13972 1644 "GET /about_me HTTP/1.1" 301 0
+INFO 2024-03-28 15:18:39,031 basehttp 13972 3656 "GET /about_me/ HTTP/1.1" 200 4158
+INFO 2024-03-28 15:19:19,227 autoreload 13972 9776 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\myfirsthwapp\views.py changed, reloading.
+INFO 2024-03-28 15:19:19,540 autoreload 7072 20028 Watching for file changes with StatReloader
+INFO 2024-03-28 15:19:23,183 basehttp 7072 16044 "GET /about_me/ HTTP/1.1" 200 4140
+INFO 2024-03-28 15:20:31,873 autoreload 7072 20028 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\myfirsthwapp\views.py changed, reloading.
+INFO 2024-03-28 15:20:32,180 autoreload 15436 17384 Watching for file changes with StatReloader
+INFO 2024-03-28 15:20:35,207 basehttp 15436 1296 "GET /about_me/ HTTP/1.1" 200 4140
+INFO 2024-03-28 15:20:54,734 basehttp 15436 1296 "GET /about_me/ HTTP/1.1" 200 4140
+INFO 2024-03-28 15:20:57,375 basehttp 15436 1296 "GET /about_me/ HTTP/1.1" 200 4140
+INFO 2024-03-28 15:21:32,333 autoreload 15436 17384 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\birukovproject\settings.py changed, reloading.
+INFO 2024-03-28 15:21:32,641 autoreload 532 13904 Watching for file changes with StatReloader
+INFO 2024-03-28 15:21:37,127 views 532 7068 Открыта страница ABOUT_ME
+INFO 2024-03-28 15:21:37,128 basehttp 532 7068 "GET /about_me/ HTTP/1.1" 200 4140
