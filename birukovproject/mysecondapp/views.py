@@ -2,11 +2,15 @@ import logging
 from django.shortcuts import render
 from django.http import HttpResponse
 from random import choice, randint
+from . import models
+
 
 # Create your views here.
 logger = logging.getLogger(__name__)
 def coin(request):
     result = choice(['Орёл', 'Решка'])
+    throw_res = models.CoinThrows(throw_result=result)
+    throw_res.save()
     logger.info(f'После броска моентки выпало: {result}')
     return HttpResponse(f'<h1>После броска моентки выпало: {result}</h1>')
 
