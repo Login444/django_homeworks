@@ -4,5 +4,7 @@ from . import views
 urlpatterns = [
     path('coin/', views.coin, name='coin'),
     path('cube/', views.cube, name='cube'),
-    path('random_num/', views.random_num, name='random_num')
+    path('random_num/', views.random_num, name='random_num'),
+    path('coin_stat/', views.coin_stat, name='stat_coin'),
+    path('authors/', views.create_authors, name='authors')
 ]

@@ -411,3 +411,57 @@ INFO 2024-03-30 13:57:10,864 basehttp 7724 5724 "GET /second/coin/ HTTP/1.1" 200
 INFO 2024-03-30 13:57:11,031 basehttp 7724 5724 "GET /second/coin/ HTTP/1.1" 200 72
 INFO 2024-03-30 13:59:37,458 autoreload 7724 8848 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
 INFO 2024-03-30 13:59:37,799 autoreload 11472 9816 Watching for file changes with StatReloader
+INFO 2024-03-30 22:05:54,582 autoreload 17844 17632 Watching for file changes with StatReloader
+INFO 2024-03-30 22:05:56,587 views 17844 20468 Открыта страница MAIN
+INFO 2024-03-30 22:05:56,588 basehttp 17844 20468 "GET / HTTP/1.1" 200 1193
+WARNING 2024-03-30 22:05:56,687 log 17844 20468 Not Found: /favicon.ico
+WARNING 2024-03-30 22:05:56,687 basehttp 17844 20468 "GET /favicon.ico HTTP/1.1" 404 2558
+INFO 2024-03-30 22:06:08,826 basehttp 17844 20468 "GET /second/coin_stat HTTP/1.1" 301 0
+INFO 2024-03-30 22:06:08,843 basehttp 17844 18868 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:08:44,555 autoreload 17844 17632 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:08:44,901 autoreload 11728 10868 Watching for file changes with StatReloader
+INFO 2024-03-30 22:08:49,832 basehttp 11728 22848 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:08:51,065 basehttp 11728 22848 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:08:51,242 basehttp 11728 22848 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:08:51,420 basehttp 11728 22848 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:10:43,031 autoreload 11728 10868 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:10:43,383 autoreload 9280 9772 Watching for file changes with StatReloader
+INFO 2024-03-30 22:10:46,489 basehttp 9280 21132 "GET /second/coin_stat/ HTTP/1.1" 200 18
+INFO 2024-03-30 22:11:57,877 autoreload 9280 9772 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-03-30 22:11:58,206 autoreload 652 5716 Watching for file changes with StatReloader
+INFO 2024-03-30 22:12:00,630 basehttp 652 21612 "GET /second/coin_stat/ HTTP/1.1" 200 32
+INFO 2024-03-30 22:12:39,150 autoreload 652 5716 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:12:39,480 autoreload 23384 16068 Watching for file changes with StatReloader
+ERROR 2024-03-30 22:12:42,118 log 23384 1848 Internal Server Error: /second/coin_stat/
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py", line 18, in coin_stat
+    data = models.CoinThrows.stat_coin(5)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py", line 13, in stat_coin
+    result[game.throw_result] +=1
+    ~~~~~~^^^^^^^^^^^^^^^^^^^
+KeyError: 'Решка'
+ERROR 2024-03-30 22:12:42,120 basehttp 23384 1848 "GET /second/coin_stat/ HTTP/1.1" 500 69701
+INFO 2024-03-30 22:13:39,733 autoreload 23384 16068 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:13:40,078 autoreload 1876 1088 Watching for file changes with StatReloader
+INFO 2024-03-30 22:14:30,082 autoreload 1876 1088 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:14:30,442 autoreload 17500 15288 Watching for file changes with StatReloader
+INFO 2024-03-30 22:17:52,794 autoreload 17500 15288 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:17:53,163 autoreload 17112 20876 Watching for file changes with StatReloader
+INFO 2024-03-30 22:20:09,672 autoreload 17112 20876 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:20:10,018 autoreload 9128 10540 Watching for file changes with StatReloader
+INFO 2024-03-30 22:20:46,920 autoreload 9128 10540 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:20:47,338 autoreload 16652 13916 Watching for file changes with StatReloader
+INFO 2024-03-30 22:22:28,232 autoreload 16652 13916 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\models.py changed, reloading.
+INFO 2024-03-30 22:22:28,605 autoreload 3708 17420 Watching for file changes with StatReloader
+INFO 2024-03-30 22:31:36,571 autoreload 16284 3496 Watching for file changes with StatReloader
+INFO 2024-03-30 22:31:38,704 views 16284 8660 Открыта страница MAIN
+INFO 2024-03-30 22:31:38,706 basehttp 16284 8660 "GET / HTTP/1.1" 200 1193
+INFO 2024-03-30 22:32:10,181 basehttp 16284 8660 "GET /second/authors HTTP/1.1" 301 0
+INFO 2024-03-30 22:32:10,346 basehttp 16284 22368 "GET /second/authors/ HTTP/1.1" 200 190
