@@ -4,6 +4,7 @@ from django.core.management.base import BaseCommand
 from random import randint
 from marketapp.models import Order, Client, Product
 
+
 class Command(BaseCommand):
     help = "Create 10 random orders"
 
