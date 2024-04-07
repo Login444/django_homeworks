@@ -21,6 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     # path('', include('myfirsthwapp.urls')),
     # path('', include('myfirstapp.urls')),
-    # path('second/', include('mysecondapp.urls')),
+    # path('', include('mysecondapp.urls')),
     path('', include('marketapp.urls')),
 ]

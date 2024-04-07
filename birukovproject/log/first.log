@@ -1356,3 +1356,383 @@ INFO 2024-04-03 16:20:52,811 autoreload 1100 1864 Watching for file changes with
 INFO 2024-04-03 16:20:55,742 basehttp 1100 20296 "GET /orders/5/7 HTTP/1.1" 200 665
 INFO 2024-04-03 16:21:01,878 basehttp 1100 20296 "GET /orders/5/30 HTTP/1.1" 200 666
 INFO 2024-04-03 16:21:06,447 basehttp 1100 20296 "GET /orders/5/365 HTTP/1.1" 200 667
+INFO 2024-04-07 14:25:01,003 autoreload 5948 7980 Watching for file changes with StatReloader
+INFO 2024-04-07 14:27:06,990 autoreload 5948 7980 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\birukovproject\settings.py changed, reloading.
+INFO 2024-04-07 14:27:07,306 autoreload 10596 11508 Watching for file changes with StatReloader
+INFO 2024-04-07 14:27:37,528 autoreload 4960 1896 Watching for file changes with StatReloader
+INFO 2024-04-07 14:27:55,975 autoreload 4960 1896 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\urls.py changed, reloading.
+INFO 2024-04-07 14:27:56,265 autoreload 17376 16548 Watching for file changes with StatReloader
+INFO 2024-04-07 14:27:59,173 basehttp 17376 18184 "GET / HTTP/1.1" 200 1185
+WARNING 2024-04-07 14:27:59,321 log 17376 18184 Not Found: /favicon.ico
+WARNING 2024-04-07 14:27:59,322 basehttp 17376 18184 "GET /favicon.ico HTTP/1.1" 404 3016
+ERROR 2024-04-07 14:28:07,106 log 17376 18184 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py", line 20, in game_form
+    coin(request, count)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py", line 42, in coin
+    return render(request,
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'throw[0]'
+ERROR 2024-04-07 14:28:07,111 basehttp 17376 18184 "POST / HTTP/1.1" 500 193700
+INFO 2024-04-07 14:29:48,605 autoreload 15892 5792 Watching for file changes with StatReloader
+INFO 2024-04-07 14:29:51,724 basehttp 15892 12740 "GET / HTTP/1.1" 200 1185
+ERROR 2024-04-07 14:29:55,707 log 15892 12740 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view mysecondapp.views.game_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-07 14:29:55,708 basehttp 15892 12740 "POST / HTTP/1.1" 500 67626
+INFO 2024-04-07 14:30:31,633 autoreload 15892 5792 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:30:31,962 autoreload 16084 16344 Watching for file changes with StatReloader
+INFO 2024-04-07 14:31:22,955 autoreload 16084 16344 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:31:23,268 autoreload 5072 12612 Watching for file changes with StatReloader
+INFO 2024-04-07 14:31:27,883 basehttp 5072 16272 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:31:37,229 basehttp 5072 16272 "POST / HTTP/1.1" 200 384
+INFO 2024-04-07 14:31:44,399 basehttp 5072 16272 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:31:53,902 basehttp 5072 16272 "POST / HTTP/1.1" 200 2049
+INFO 2024-04-07 14:32:00,080 basehttp 5072 16272 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:32:21,502 basehttp 5072 16272 "POST / HTTP/1.1" 200 1241
+INFO 2024-04-07 14:32:26,568 basehttp 5072 16272 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:33:42,699 autoreload 5072 12612 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:33:43,017 autoreload 8404 3064 Watching for file changes with StatReloader
+INFO 2024-04-07 14:33:47,097 basehttp 8404 3712 "GET / HTTP/1.1" 200 1185
+ERROR 2024-04-07 14:33:51,144 log 8404 3712 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py", line 20, in game_form
+    return coin(request, count)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py", line 41, in coin
+    return render(request,
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\defaulttags.py", line 861, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\base.py", line 698, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse the remainder: '[0]' from 'throw[0]'
+ERROR 2024-04-07 14:33:51,149 basehttp 8404 3712 "POST / HTTP/1.1" 500 193736
+INFO 2024-04-07 14:36:44,909 autoreload 11424 4088 Watching for file changes with StatReloader
+INFO 2024-04-07 14:36:47,992 basehttp 11424 18368 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:36:52,078 basehttp 11424 18368 "POST / HTTP/1.1" 200 480
+INFO 2024-04-07 14:37:08,634 autoreload 11424 4088 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:37:08,929 autoreload 17180 404 Watching for file changes with StatReloader
+INFO 2024-04-07 14:37:16,883 basehttp 17180 15240 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:37:21,498 basehttp 17180 15240 "POST / HTTP/1.1" 200 484
+INFO 2024-04-07 14:37:30,380 basehttp 17180 15240 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:38:22,212 autoreload 12980 5008 Watching for file changes with StatReloader
+INFO 2024-04-07 14:38:36,407 basehttp 12980 5072 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:38:39,387 basehttp 12980 6252 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:38:54,678 basehttp 12980 6252 "POST / HTTP/1.1" 200 3637
+INFO 2024-04-07 14:39:54,984 autoreload 12980 5008 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\forms.py changed, reloading.
+INFO 2024-04-07 14:39:55,287 autoreload 6440 6964 Watching for file changes with StatReloader
+INFO 2024-04-07 14:40:02,082 basehttp 6440 8264 "GET / HTTP/1.1" 200 1195
+INFO 2024-04-07 14:40:08,776 autoreload 6440 6964 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\forms.py changed, reloading.
+INFO 2024-04-07 14:40:09,078 autoreload 17368 15704 Watching for file changes with StatReloader
+INFO 2024-04-07 14:40:12,438 basehttp 17368 2516 "GET / HTTP/1.1" 200 1196
+INFO 2024-04-07 14:40:25,615 autoreload 17368 15704 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\forms.py changed, reloading.
+INFO 2024-04-07 14:40:25,935 autoreload 8044 6784 Watching for file changes with StatReloader
+INFO 2024-04-07 14:40:28,901 basehttp 8044 10772 "GET / HTTP/1.1" 200 1196
+INFO 2024-04-07 14:40:46,516 autoreload 8044 6784 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\forms.py changed, reloading.
+INFO 2024-04-07 14:40:46,827 autoreload 8508 14848 Watching for file changes with StatReloader
+INFO 2024-04-07 14:40:49,023 basehttp 8508 12308 "GET / HTTP/1.1" 200 1197
+INFO 2024-04-07 14:41:00,331 autoreload 8508 14848 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\forms.py changed, reloading.
+INFO 2024-04-07 14:41:00,645 autoreload 14156 8072 Watching for file changes with StatReloader
+INFO 2024-04-07 14:41:03,727 basehttp 14156 16360 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:41:59,959 basehttp 14156 8012 "POST / HTTP/1.1" 200 260
+INFO 2024-04-07 14:42:17,905 basehttp 14156 8012 "POST / HTTP/1.1" 200 1510
+INFO 2024-04-07 14:45:19,062 basehttp 14156 3504 "GET /coin/5 HTTP/1.1" 200 484
+INFO 2024-04-07 14:47:24,878 autoreload 14156 8072 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:47:25,206 autoreload 7828 18484 Watching for file changes with StatReloader
+INFO 2024-04-07 14:47:32,452 basehttp 7828 6360 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 14:47:48,857 autoreload 7828 18484 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\mysecondapp\views.py changed, reloading.
+INFO 2024-04-07 14:47:49,168 autoreload 19088 1584 Watching for file changes with StatReloader
+INFO 2024-04-07 14:47:51,585 basehttp 19088 14664 "GET / HTTP/1.1" 200 1185
+INFO 2024-04-07 15:41:38,902 autoreload 10224 8616 Watching for file changes with StatReloader
+INFO 2024-04-07 15:42:07,488 autoreload 10224 8616 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:42:07,797 autoreload 9396 18220 Watching for file changes with StatReloader
+INFO 2024-04-07 15:43:17,974 autoreload 9396 18220 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:43:18,272 autoreload 17516 9420 Watching for file changes with StatReloader
+INFO 2024-04-07 15:44:02,071 autoreload 17516 9420 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:44:02,364 autoreload 18880 6944 Watching for file changes with StatReloader
+INFO 2024-04-07 15:44:10,656 autoreload 18880 6944 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:44:10,955 autoreload 18368 17820 Watching for file changes with StatReloader
+INFO 2024-04-07 15:44:26,342 autoreload 18368 17820 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:44:26,631 autoreload 3652 17360 Watching for file changes with StatReloader
+INFO 2024-04-07 15:45:53,038 autoreload 3652 17360 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:45:53,335 autoreload 13908 6148 Watching for file changes with StatReloader
+INFO 2024-04-07 15:46:01,634 autoreload 13908 6148 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:46:01,945 autoreload 16256 18492 Watching for file changes with StatReloader
+INFO 2024-04-07 15:46:47,779 autoreload 16256 18492 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:46:48,087 autoreload 1736 11432 Watching for file changes with StatReloader
+INFO 2024-04-07 15:48:03,359 autoreload 1736 11432 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\forms.py changed, reloading.
+INFO 2024-04-07 15:48:03,677 autoreload 9840 15856 Watching for file changes with StatReloader
+ERROR 2024-04-07 15:48:16,752 log 9840 7784 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py", line 40, in update_product_form
+    return render(request, '', {'form': form, 'title': 'Updating product'})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\base.py", line 23, in get_template
+    contents = self.get_contents(origin)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\cached.py", line 26, in get_contents
+    return origin.loader.get_contents(origin)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\template\loaders\filesystem.py", line 22, in get_contents
+    with open(origin.name, encoding=self.engine.file_charset) as fp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\RobotComp.ru\\OneDrive\\Рабочий стол\\django_practice\\birukovproject\\templates'
+ERROR 2024-04-07 15:48:16,755 basehttp 9840 7784 "GET / HTTP/1.1" 500 112217
+INFO 2024-04-07 15:48:57,806 autoreload 9840 15856 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:48:58,115 autoreload 11140 5952 Watching for file changes with StatReloader
+INFO 2024-04-07 15:49:04,680 basehttp 11140 2388 "GET / HTTP/1.1" 200 2622
+INFO 2024-04-07 15:49:26,788 autoreload 9324 3364 Watching for file changes with StatReloader
+INFO 2024-04-07 15:49:29,782 basehttp 9324 12012 "GET / HTTP/1.1" 200 2415
+INFO 2024-04-07 15:50:15,991 basehttp 9324 12012 "POST / HTTP/1.1" 200 63
+INFO 2024-04-07 15:52:30,932 autoreload 14296 6968 Watching for file changes with StatReloader
+INFO 2024-04-07 15:52:32,355 basehttp 14296 18932 "GET / HTTP/1.1" 200 2407
+ERROR 2024-04-07 15:53:05,780 log 14296 18932 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py", line 34, in update_product_form
+    product.save()
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\base.py", line 822, in save
+    self.save_base(
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\base.py", line 909, in save_base
+    updated = self._save_table(
+              ^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\base.py", line 1036, in _save_table
+    updated = self._do_update(
+              ^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\base.py", line 1101, in _do_update
+    return filtered._update(values) > 0
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\query.py", line 1278, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\sql\compiler.py", line 1990, in execute_sql
+    cursor = super().execute_sql(result_type)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: database is locked
+ERROR 2024-04-07 15:53:05,784 basehttp 14296 18932 "POST / HTTP/1.1" 500 152445
+INFO 2024-04-07 15:53:14,493 basehttp 14296 18932 "POST / HTTP/1.1" 200 63
+INFO 2024-04-07 15:54:02,732 autoreload 14296 6968 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:54:03,064 autoreload 7784 3064 Watching for file changes with StatReloader
+INFO 2024-04-07 15:54:06,562 basehttp 7784 13796 "GET / HTTP/1.1" 200 2407
+INFO 2024-04-07 15:54:44,359 basehttp 7784 13796 "POST / HTTP/1.1" 200 63
+INFO 2024-04-07 15:55:44,908 autoreload 7784 3064 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:55:45,219 autoreload 1720 19432 Watching for file changes with StatReloader
+INFO 2024-04-07 15:55:56,564 autoreload 1720 19432 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:55:56,861 autoreload 5328 18092 Watching for file changes with StatReloader
+INFO 2024-04-07 15:55:58,202 basehttp 5328 16084 "GET / HTTP/1.1" 200 2407
+INFO 2024-04-07 15:56:32,491 basehttp 5328 16084 "POST / HTTP/1.1" 200 63
+INFO 2024-04-07 15:57:14,334 autoreload 5328 18092 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:57:14,653 autoreload 8688 9984 Watching for file changes with StatReloader
+INFO 2024-04-07 15:58:00,542 autoreload 8688 9984 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-07 15:58:00,844 autoreload 17060 3700 Watching for file changes with StatReloader
+INFO 2024-04-07 15:58:05,702 basehttp 17060 12260 "GET / HTTP/1.1" 200 2407
+INFO 2024-04-07 15:58:37,096 basehttp 17060 12260 "POST / HTTP/1.1" 200 63
+INFO 2024-04-07 16:23:19,702 autoreload 19616 4372 Watching for file changes with StatReloader
