@@ -49,7 +49,8 @@ def upload_img_for_product(request):
             file = FileSystemStorage()
             file.save(image.name, image)
             product = Product.objects.filter(pk=pk).first()
-
+            product.image = image
+            product.save()
     else:
         form = UploadProductImage()
         return render(request, 'marketapp/update_product.html', context={'form': form, 'title': 'Uploading image'})
