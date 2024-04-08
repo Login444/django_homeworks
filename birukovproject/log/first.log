@@ -1736,3 +1736,44 @@ INFO 2024-04-07 15:58:00,844 autoreload 17060 3700 Watching for file changes wit
 INFO 2024-04-07 15:58:05,702 basehttp 17060 12260 "GET / HTTP/1.1" 200 2407
 INFO 2024-04-07 15:58:37,096 basehttp 17060 12260 "POST / HTTP/1.1" 200 63
 INFO 2024-04-07 16:23:19,702 autoreload 19616 4372 Watching for file changes with StatReloader
+INFO 2024-04-08 19:49:23,224 autoreload 13988 16136 Watching for file changes with StatReloader
+INFO 2024-04-08 19:49:25,165 basehttp 13988 14700 "GET / HTTP/1.1" 200 2401
+WARNING 2024-04-08 19:49:25,260 log 13988 14700 Not Found: /favicon.ico
+WARNING 2024-04-08 19:49:25,261 basehttp 13988 14700 "GET /favicon.ico HTTP/1.1" 404 2701
+INFO 2024-04-08 19:49:30,830 basehttp 13988 14700 "GET /upload HTTP/1.1" 301 0
+INFO 2024-04-08 19:49:30,859 basehttp 13988 13236 "GET /upload/ HTTP/1.1" 200 642
+ERROR 2024-04-08 19:49:43,849 log 13988 13236 Internal Server Error: /upload/
+Traceback (most recent call last):
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view marketapp.views.upload_img_for_product didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-08 19:49:43,850 basehttp 13988 13236 "POST /upload/ HTTP/1.1" 500 68021
+INFO 2024-04-08 19:50:51,199 autoreload 13988 16136 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\views.py changed, reloading.
+INFO 2024-04-08 19:50:51,545 autoreload 8904 7332 Watching for file changes with StatReloader
+INFO 2024-04-08 19:50:57,095 basehttp 8904 8156 "GET / HTTP/1.1" 200 2401
+INFO 2024-04-08 19:51:03,493 basehttp 8904 8156 "GET /upload/ HTTP/1.1" 200 642
+INFO 2024-04-08 19:51:09,017 basehttp 8904 8156 "POST /upload/ HTTP/1.1" 200 68
+INFO 2024-04-08 19:55:38,087 autoreload 8904 7332 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\models.py changed, reloading.
+INFO 2024-04-08 19:55:38,465 autoreload 18052 8404 Watching for file changes with StatReloader
+INFO 2024-04-08 19:57:06,039 autoreload 18052 8404 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\models.py changed, reloading.
+INFO 2024-04-08 19:57:06,496 autoreload 19848 404 Watching for file changes with StatReloader
+INFO 2024-04-08 20:00:39,989 autoreload 19848 404 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\models.py changed, reloading.
+INFO 2024-04-08 20:00:40,325 autoreload 17116 11892 Watching for file changes with StatReloader
+INFO 2024-04-08 20:02:00,521 autoreload 17116 11892 C:\Users\RobotComp.ru\OneDrive\Рабочий стол\django_practice\birukovproject\marketapp\models.py changed, reloading.
+INFO 2024-04-08 20:02:00,827 autoreload 14380 16152 Watching for file changes with StatReloader
+INFO 2024-04-08 20:23:07,520 autoreload 5400 5412 Watching for file changes with StatReloader
+INFO 2024-04-08 20:23:10,077 basehttp 5400 2912 "GET / HTTP/1.1" 200 2401
+INFO 2024-04-08 20:23:29,319 autoreload 13100 10940 Watching for file changes with StatReloader
+INFO 2024-04-08 20:23:31,613 basehttp 13100 8040 "GET / HTTP/1.1" 200 2401
+INFO 2024-04-08 20:23:38,555 basehttp 13100 8040 "GET /upload/ HTTP/1.1" 200 642
+INFO 2024-04-08 20:23:51,431 basehttp 13100 8040 "POST /upload/ HTTP/1.1" 200 98
+INFO 2024-04-08 20:44:34,074 autoreload 15004 6824 Watching for file changes with StatReloader
+INFO 2024-04-08 20:44:36,059 basehttp 15004 11360 "GET / HTTP/1.1" 200 2401
+INFO 2024-04-08 20:44:40,432 basehttp 15004 11360 "GET /upload/ HTTP/1.1" 200 1615
+INFO 2024-04-08 20:44:41,793 basehttp 15004 11360 "GET /upload/ HTTP/1.1" 200 1615
+INFO 2024-04-08 20:44:49,381 basehttp 15004 11360 "POST /upload/ HTTP/1.1" 200 68

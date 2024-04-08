@@ -23,7 +23,10 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     count = models.IntegerField()
     add_date = models.DateField(auto_now_add=True)
-    image = models.ImageField(upload_to='product_images/', null=True, blank=True)
+    photo = models.ImageField(upload_to='product_photos/', null=True, blank=True)
+
+    def __str__(self):
+        return f'{self.name=},{self.description=}, {self.price=}'
 
 
 
@@ -32,3 +35,6 @@ class Order(models.Model):
     client = models.ForeignKey(to=Client, on_delete=models.CASCADE)
     total_price = models.DecimalField(max_digits=10, decimal_places=2)
     order_date = models.DateField(auto_now_add=True)
+
+    def __str__(self):
+        return f'{self.pk}, {self.total_price=}, {self.order_date=}'

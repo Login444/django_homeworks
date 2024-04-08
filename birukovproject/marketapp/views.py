@@ -44,13 +44,14 @@ def upload_img_for_product(request):
     if request.method == 'POST':
         form = UploadProductImage(request.POST, request.FILES)
         if form.is_valid():
-            image = form.cleaned_data['image']
             pk = form.cleaned_data['name']
+            image = form.cleaned_data['image']
+            product = Product.objects.filter(pk=pk).first()
+            product.photo = image
+            product.save()
             file = FileSystemStorage()
             file.save(image.name, image)
-            product = Product.objects.filter(pk=pk).first()
-            product.image = image
-            product.save()
+            return HttpResponse(f'<h1>Изображение {image.name} загружено</h1>')
     else:
         form = UploadProductImage()
-        return render(request, 'marketapp/update_product.html', context={'form': form, 'title': 'Uploading image'})
+        return render(request, 'marketapp/upload_image.html', context={'form': form, 'title': 'Uploading image'})
