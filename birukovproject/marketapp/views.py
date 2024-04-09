@@ -19,6 +19,7 @@ def products_list(request, client_id: int, time_diapazone: int):
                   'marketapp/orders_by_client.html',
                   {'title': "Orders", 'products': products, 'client_name': client.name, 'time': time_diapazone})
 
+
 def update_product_form(request):
     if request.method == 'POST':
         form = UpdateProduct(request.POST)
@@ -38,7 +39,10 @@ def update_product_form(request):
             return HttpResponse(f'<p>{product} - Изменения добавлены</p>')
     else:
         form = UpdateProduct()
-        return render(request, 'marketapp/update_product.html', {'form': form, 'title': 'Updating product'})
+        return render(request,
+                      'marketapp/update_product.html',
+                      {'form': form, 'title': 'Updating product'})
+
 
 def upload_img_for_product(request):
     if request.method == 'POST':
@@ -54,4 +58,6 @@ def upload_img_for_product(request):
             return HttpResponse(f'<h1>Изображение {image.name} загружено</h1>')
     else:
         form = UploadProductImage()
-        return render(request, 'marketapp/upload_image.html', context={'form': form, 'title': 'Uploading image'})
+        return render(request,
+                      'marketapp/upload_image.html',
+                      context={'form': form, 'title': 'Uploading image'})
